@@ -19,7 +19,7 @@ export default function MapComponent({ enteredCoordinates }) {
         />
         <Marker position={rightPosition}>
           <Popup>
-            <a href="https://maps.app.goo.gl/ZmGAT4YEHyVZuMHg9">See you here</a>
+            <a target="_blank" href="https://maps.app.goo.gl/ZmGAT4YEHyVZuMHg9">See you here</a>
           </Popup>
         </Marker>
         <MapUpdater coordinates={rightPosition} />
