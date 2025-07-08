@@ -13,7 +13,7 @@ function App() {
   const [mapDisplay, setMapDisplay] = useState(false);
   const [error, setError] = useState(false);
 
-  const coordinates = [48.264, 25.999];
+  const coordinates = [48.2647, 25.9992];
 
   useEffect(() => {
     confetti({

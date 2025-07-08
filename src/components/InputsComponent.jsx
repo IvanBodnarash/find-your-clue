@@ -38,7 +38,7 @@ export default function InputsComponent({
           name="first"
           placeholder="Enter first value"
           autoComplete="off"
-          step="0.001"
+          step="0.0001"
           required
         />
         <input
@@ -47,7 +47,7 @@ export default function InputsComponent({
           name="second"
           placeholder="Enter second value"
           autoComplete="off"
-          step="0.001"
+          step="0.0001"
           required
         />
         <button
